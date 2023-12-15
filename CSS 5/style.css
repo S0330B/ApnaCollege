@@ -1,0 +1,48 @@
+@keyframes sushil{
+    from {background-color: aquamarine;}
+    to{background-color: red;}
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    border-radius: 50%;
+    /* transition-property: all; */
+    /* transition: 2s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 1s; */
+    /* transition: all 2s ease-in 0s; */
+    animation-name: sushil;
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+div:hover{
+    /* background-color: red; */
+    /* color: white; */
+    /* font-size: 20px; */
+    /* transform: rotate(720deg); */
+    /* transform: scale(2); */
+    /* transform: translate(-50px,100px); */
+    /* transform: skew(45deg); */
+    
+  
+    
+    
+}
+
+div:active{
+    background-color: pink;
+    
+}
