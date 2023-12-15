@@ -1,7 +1,7 @@
 /* * {
   margin: 0;
   padding: 0;
-} */
+}
 
 body {
   text-align: center;
@@ -20,9 +20,9 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: flex-start;
-  /* align-content: flex-end; */
+  align-content: flex-end;
 }
 
 #box1 {
@@ -44,4 +44,38 @@ div {
 #box5 {
   background-color: slateblue;
 
+} */
+
+/* .navbar {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  
+} */
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.outer{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 20%;
+    width: 20%;
+    background-color: white;
 }
