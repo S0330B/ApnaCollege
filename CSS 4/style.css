@@ -81,12 +81,12 @@ li {
 } */
 
 div {
-  height: 50px;
-  width: 50px;
+  height: 250px;
+  width: 150px;
   background-color: pink;
 }
 
-@media (width: 600px) {
+/* @media (width: 600px) {
   div {
     background-color: red;
   }
@@ -102,4 +102,25 @@ div {
     div{
         background-color: blue;
     }
+} */
+
+@media (max-width: 300px) {
+  div {
+    background-color: green;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  div {
+    background-color: pink;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+@media (min-width: 600px) {
+  div {
+    background-color: blue;
+  }
 }
